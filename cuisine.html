@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="keywords" content="">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/png" href="">
+  <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
+  <title>Acceuil</title>
+  <link rel="stylesheet" href="style/slider-def.css">
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Acceuil <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="monuments.html">Monuments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cités.html">Cités</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cuisine.html">Cuisine</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hommesdeculture.html">Hommes De Culture</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="fete.html">Fêtes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">A Propos De Nous</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <h1 style="text-align:center;font-family: fantasy;color:rgb(117, 11, 7)">La Cuisine Andalouse En Tunisie!</h1>
+    <h5 style="text-align:center">Nombreux mets composent le patrimoine culinaire tunisien dont l’origine est tantôt
+      connue tantôt inconnue ou peu connue. Les Andalous, eux, ont écrit une partie de l’histoire de la Tunisie ; et on
+      n’en a pas hérité que l’architecture mais également la gastronomie.</h5>
+    <hr style="font-weight:bold">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" id="btn">Plats Salés</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item  ">
+            <a class="nav-link" id="shn">Desserts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="ifn">Plus...</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="bt" style="font-size:135%;">
+      <h2 style="border-bottom:black 2px solid;text-align: left" id="lose">Plats Salés:</h2>
+      <h4>En ce qui concerne les mets salés, l’on retrouve non exhaustivement :</h4>
+      <img src="20140407_122210.jpg" class="img-fluid" alt="Responsive image" style="float:right;width: 600px">
+      <br>
+      <h3>La Marka Hloowa:</h3><br>
+      <p>littéralement sauce sucrée, cette sauce est généralement préparée à base de marrons, raisins secs, prunes ou
+        abricots séchés, le tout accompagné de viande d’agneau)</p><br><br>
+      <br> <img src="gastronomie-andalouse-211211-4.jpg" class="img-fluid" alt="Responsive image"
+        style="float:left;width: 400px">
+      <br><br>
+      <h3> La Mkarbta:</h3>
+      <p>qui est un plat à base de pâtes de Nwassér à l’agneau</p><br><br><br><br>
+      <img src="tajine-maadnous-2-FP.jpg" class="img-fluid" alt="Responsive image"
+        style="float:right;width: 400px;height: 200px">
+      <br>
+      <h3> Le Tajine:</h3>
+      <p>qui est une farandole de légumes (pommes de terre, tomates et artichauts) farcis au fromage et aux œufs.</p>
+      <br><br> <img src="gastronomie-andalouse-211211-3.jpg" class="img-fluid" alt="Responsive image"
+        style="float:left;width: 400px;height: 200px">
+      <h3>Le Pain zaghouanais:</h3>
+      <p>qui connaît les variétés de khobz Eddar, Khobz Mbassés, Mjémaa et bien d’autres avec cette particularité que
+        les familles zaghouanaises marquaient leur pain avec un pois chiche, une fève, une noisette de charbon… en
+        guise de signes distinctifs.</p><br><br>
+      <img src="DSC_3087.jpg" class="img-fluid" alt="Responsive image" style="float:right;width: 400px;height: 200px">
+      <br>
+      <h3>Le Gross:</h3>
+      <br><br>
+      <p>C'est Un Salé à base pétrie avec du fromage salé et cuit au four</p><br><br>
+    </div>
+    <div id="sh" style="font-size:135%;">
+      <h2 style="border-bottom:black 2px solid;text-align: left" id="lose">Desserts:</h2>
+      <img src="mhalbeya.jpg" class="img-fluid" alt="Responsive image" style="float:right;width: 600px;height: 200px">
+      <h4>Au dessert, la Mhallbia composée de riz et de lait ou encore la Bouza préparée à base de noisette et de sésame
+        détiennent une place de choix notamment qu’elles sont parfumées avec une touche du fameux nesri (eau de fleur
+        d’églantine) assez réputé dans la région.</h4><br><br>
+      <img src="chbabek.jpg" class="img-fluid" alt="Responsive image" style="float:left;width: 600px;height: 200px">
+      <br><br><br>
+      <h4>Chbebek El Janna: ce sont des gateaux frits, l'équivalent de ouedhnine el kadhi</h4>
+      <br><br>
+      <img src="zla.jpg" class="img-fluid" alt="Responsive image" style="float:right;width: 600px;height: 200px">
+      <br>
+      <h4>Indétrônable, la zlabia est l’une des douceurs les plus prisées durant le ramadan. A ce jour, son origine
+        demeure incertaine et plusieurs légendes circulent à son sujet.</h4><br><br>
+    </div>
+    <div id="if" style="font-size:135%">
+      <h2>Pour Plus D'Informations, Vous Pouvez Accéder A Ces Liens:</h2>
+      <img src="1241.png" class="img-fluid" alt="Responsive image" style="float:right;width: 600px;height: 200px">
+      <p><a href="https://www.babzman.com/la-zlabia-un-delice-aux-origines-mysterieuses/">La Zlabia, un délice aux
+          origines
+          mystérieuses
+        </a></p><br>
+      <p><a
+          href="https://www.mangeonsbien.com/outdoor/tiroirs-du-terroir/a-soliman-les-delices-andalous-font-de-la-resistance/">mangeons
+          bien</a></p>
+      <br>
+      <p> <a
+          href="https://www.mangeonsbien.com/outdoor/tiroirs-du-terroir/aux-delices-andalous-de-testour-sfenj-banadhej-marqa-hloua/">delices
+          de testour</a></p>
+      <div class="projects">
+        <div class="row text-centered">
+          <p> </p>
+          <div><img src="r.jpeg" alt="" class="img-responsive" style="width:335px;height:200px"></div>
+          <p> </p>
+          <div><img src="Ain-sbaniouria.jpg" alt="" class="img-responsive" style="width:335px;height:200px"></div>
+          <p> </p>
+          <div><img src="coujinti-brik-danouni.jpg" alt="" class="img-responsive" style="width:335px;height:200px">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="main.js"></script>
+
+</html>
